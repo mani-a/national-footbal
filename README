@@ -1,0 +1,15 @@
+Sample visualization using Python framework called Flask and Pandas and D3.js
+
+For this you need to install flask and pandas
+
+--> pip install flask
+
+--> pip install pandas
+
+
+then go to the cloned directory 
+
+
+run python file 
+
+python sample.py
