@@ -8,7 +8,6 @@ app = Flask(__name__)
 def chart1(name=None):
 	df = pd.read_csv('footbaldata.csv')
 	data = df.groupby(['Year','TeamName']).count()
-	print data['`PlayerName']
 	return render_template('index.html',data=data)
 
 

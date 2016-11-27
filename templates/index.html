@@ -15,6 +15,17 @@
 
 
 <style>
+      .main_heading {
+        text-align: center;
+        border: 2px black solid;
+        margin: 5px;
+        padding: 3px;
+        background-color: #4EADF8;
+      }
+      h3{
+        padding-top: 30px;
+        color: #024478;
+      }
       rect.bordered {
         stroke: #E6E6E6;
         stroke-width:2px;   
@@ -40,29 +51,29 @@
 <body>
 	<div class="container">
 		<div class="row">
-			<h2>Year-Year similarities National Football League Rosters..</h2>
+			<h2 class="main_heading">Year-Year similarities National Football League Rosters..</h2>
 		</div>
 		<div class="row">
-			<h2>Chart 1</h2>
+			<h3>The % of players listed on the roster that are also listed on the roster the following year</h3>
 			<div class="col-md-12">
 				<div id="chart1"></div>
     			
 			<!-- chart code -->
 		</div>
     </div>
-		<div class="row"><h2>Chart 2</h2>
+		<div class="row"><h3>The % of players who started at least 9 games in one year that start at least 9 games the following year.</h3>
 			<div class="col-md-12">
 				<div id="chart2"></div>
     			
 		</div>
     </div>
-		<div class="row"><h2>Chart 3</h2>
+		<div class="row"><h3>The % of total games in common with a previous season</h3>
 			<div class="col-md-12">
 				<div id="chart3"></div>
 		</div>
     </div>
 		<div class="row">
-      <h2>Chart 4</h2>
+      <h3>The % of total games started in common with a previous season</h3>
       <div class="col-md-12">
         <div id="chart4"></div>
           
