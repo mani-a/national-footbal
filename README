@@ -1,15 +1,18 @@
-Sample visualization using Python framework called Flask and Pandas and D3.js
-
-For this you need to install flask and pandas
-
---> pip install flask
-
---> pip install pandas
+quantitative measures of roster change from year to year. Specifically,
 
 
-then go to the cloned directory 
+1. The % of players listed on the roster that are also listed on the roster the following year.
 
+2. The % of players who started at least 9 games in one year that start at least 9 games the following
 
-run python file 
+year.
 
-python sample.py
+3. The % of total games in common with a previous season. (e.g., If Player A participated in 10
+
+games in 1989 and 6 games in 1990, there would be 6 games in common in 1990. If Player B
+
+participated in 5 games in 1989 and 16 in 1990, there would be 5 games in common).
+
+4. The % of total games started in common with a previous season (Basically the same deal as #3,
+
+except with games started instead of games played).
